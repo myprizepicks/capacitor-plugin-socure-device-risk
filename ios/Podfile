@@ -9,6 +9,7 @@ end
 
 target 'Plugin' do
   capacitor_pods
+  pod 'DeviceRisk', :git => 'https://github.com/socure-inc/socure-sigmadevice-sdk-ios.git'
 end
 
 target 'PluginTests' do

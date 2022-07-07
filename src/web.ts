@@ -9,4 +9,12 @@ export class SocureDeviceRiskWeb
     console.log('ECHO', options);
     return options;
   }
+  async setTracker(options: { value: string }): Promise<{ value: string }> {
+    console.log('ECHO SET TRACKER', options);
+    return options;
+  }
+  async sendData(options: { value: string }): Promise<{ value: string }> {
+    console.log('ECHO SEND DATA', options);
+    return options;
+  }
 }
